@@ -45,7 +45,6 @@ function createNoteElement(id, content) {
 
   element.classList.add("note");
   element.value = content;
-  element.placeholder = "Digite aqui sua nota";
 
   element.addEventListener("change", () => {
     updateNote(id, element.value);
