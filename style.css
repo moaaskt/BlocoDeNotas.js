@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background: #5BC0BE;
+}
+#app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+}
+.note{
+    height: 200px;
+    box-sizing: border-box ;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.18);
+}
+
