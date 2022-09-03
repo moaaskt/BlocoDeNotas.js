@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background: #5BC0BE;
+    background: rgb(28,37,65);
+    background: linear-gradient(90deg, rgba(28,37,65,1) 0%, rgba(79,178,212,1) 48%, rgba(11,19,43,1) 100%);
 }
 #app{
     display: grid;
@@ -36,7 +37,7 @@ body {
     background: rgba(0, 0, 0, 0.086);
     border-radius: 10px;
     font-size: 120px;
-    color: #4fb3d4d6;
+    color: #4FB2D4;
     cursor: pointer;
     transition: background 0.2s;
 
